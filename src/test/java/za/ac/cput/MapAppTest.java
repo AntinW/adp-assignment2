@@ -13,19 +13,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MapAppTest
 {
     Map<Integer, String> map;
-    Set set;
-    List list;
-    Collection collection;
-
 
     @BeforeEach
     void setUp(){
         map = new HashMap();
         map.put(1, "Antin");
-
-        set = new HashSet();
-        list = new LinkedList();
-        collection = new Stack();
     }
     @Test
     public void testMapAdd()
