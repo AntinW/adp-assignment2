@@ -4,7 +4,7 @@ package za.ac.cput;
  * Hello world!
  *
  */
-public class App 
+public class MapApp
 {
     public static void main( String[] args )
     {
