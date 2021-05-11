@@ -22,7 +22,8 @@ public class MapAppTest
     @Test
     public void testMapAdd()
     {
-        assertFalse(map.isEmpty());
+        map.put(2, "John Doe");
+        assertTrue(map.containsKey(2));
     }
     @Test
     public void testMapRemove(){
