@@ -9,7 +9,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ListAppTest {
-    List list;
+    List<String> list;
     @BeforeEach
     void setUp() {
         list = new LinkedList();
